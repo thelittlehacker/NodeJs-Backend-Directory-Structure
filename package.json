@@ -1,0 +1,26 @@
+{
+  "name": "sane_observer_new",
+  "version": "1.0.0",
+  "description": "Explore yourself. Manage yourself. Represent Yourself. Adopt good habits you want. Program your lifestyle with data-driven critical awareness, evolve to your better version each day. Add trackability and visibility to life. Regulate the way the world discovers and deals with you. Adopt a lifestyle of Smart Living.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Aditya Pranav",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.744.0",
+    "aws-sns-sms": "^1.0.2",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.2",
+    "uuid4": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

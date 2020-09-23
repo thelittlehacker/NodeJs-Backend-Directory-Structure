@@ -1,0 +1,33 @@
+{
+    "envName": "Development",
+    "port": 5000,
+    "db_connectionString": {
+        "saneObserver": "Change this line with your DB connection String (in case of Local MongoDB setup use this - mongodb://localhost:27017/yourDBName)"
+    },
+    "aws": {
+        "sns": {
+            "region": "put your AWS region here"
+        },
+        "ses": {
+            "region": "put your AWS region here"
+        },
+        "s3": {
+            "region": "put your AWS region here",
+            "bucket": "yourBucketName"
+        },
+        "iam": {
+            "accessKeyId": "put your AWS Access Key here",
+            "secretAccessKey": "put your AWS Secret Key here"
+        }
+    },
+    "token": {
+        "access_token_secret": "AD_BZhmhgeUy0Hjp_access",
+        "refresh_token_secret": "AD_YLbdhBOZcp39laaAWxsRWdfEwF_access",
+        "otp_secret": "eUy0Hjp+YLbdhBOZcp39la"
+    },
+    "expiresIn": {
+        "_accessToken": "7d",
+        "_refreshToken": "30d",
+        "_otpToken": "1h"
+    }
+}
